@@ -6,6 +6,9 @@ This is a complete example for the usage of the crawler lib written by myself
 * 3, write a class to run the crawler<br>
  you can find the complete example in the project
 
+#Implement the Parser interface
+* implement the extractlink method, in this method you extract links and do some other operations like crud
+
 #The usage of Crawler Class
 * 1, create a new crawler thread<br>
 Crawler crawler1 = new Crawler(
